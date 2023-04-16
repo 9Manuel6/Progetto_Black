@@ -68,6 +68,10 @@ align-items: center;
 .numbersMoon{
     font-size: 70px;
 }
+.fontP{
+
+    color: white;
+}
 
 .testo{
     display: flex;
@@ -85,6 +89,29 @@ align-items: center;
   
 }
 
+@media screen and (max-width: 579px){
+
+    .numbersMoon{
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+
+    .numbersMoon{
+        font-size: 10px;
+        
+        
+    }
+    .fontP{
+
+       font-size: 10px;
+
+    }
+    
+    
+}
 
 
 
@@ -95,7 +122,7 @@ align-items: center;
 
 .posizioneTestoLuna{
     width: 100%;
-    height: 800px;
+    height: 700px;
     display: flex;
     padding-top: 100px;  
    
@@ -115,13 +142,100 @@ align-items: center;
  
 .immagineMezzaLuna{
     width: 100%;
-    height: 800px;
+    height: 600px;
     background-image: url(./moon2.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 } 
 
+@media screen and (max-width: 1050px) {
 
+
+    .immagineMezzaLuna{
+        width: 100%;
+        height: 500px;      
+        background-size: contain;
+        background-repeat: no-repeat;
+    } 
+
+    .posizioneTestoLuna{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        padding-top: 100px;  
+       
+    }
+
+}
+
+
+ @media screen and (max-width: 800px){
+            
+    .immagineMezzaLuna{
+        width: 100%;
+        height: 400px;      
+        background-size: contain;
+        background-repeat: no-repeat;    
+    } 
+
+    .posizioneTestoLuna{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        padding-top: 100px;    
+    }
+    
+}
+
+@media screen and (max-width: 650px){
+            
+    .immagineMezzaLuna{
+        width: 100%;
+        height: 300px;
+        background-size: contain;
+        background-repeat: no-repeat;    
+    } 
+   
+    .testoMezzaLuna{
+    
+        font-size: 12px;
+
+    }
+   
+    .posizioneTestoLuna{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        padding-top: 100px;        
+    }
+}
+
+@media screen and (max-width: 500px){
+            
+    .immagineMezzaLuna{
+        width: 100%;
+        height: 250px;
+        background-size: contain;
+        background-repeat: no-repeat;    
+    } 
+   
+    .testoMezzaLuna{     
+        font-size: 10px;
+    }
+    
+    .h1{
+        font-family: 'Orbitron', sans-serif;
+        font-size: 15px;
+    }
+    .posizioneTestoLuna{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        padding-top: 100px;  
+       
+    }
+}
+ 
 
 
 
@@ -217,16 +331,325 @@ align-items: center;
 .razzo{
     width: 100%;
     height: 900px;
-
-   
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-   
+    background-position: center;  
+}
+
+@media screen and (max-width: 1200px){
+
+        
+    .fontRazzo{
+
+        font-size: 16px;
+ 
+     }
+     .testoRazzo1{
+        width: 100%;
+        height: 350px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .testoRazzo2{
+        width: 100%;
+        height: 350px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .testoRazzo3{
+        width: 100%;
+        height: 350px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1050px){
+
+        
+    .fontRazzo{
+
+        font-size: 14px;
+ 
+     }
+     .testoRazzo1{
+        width: 100%;
+        height: 300px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .testoRazzo2{
+        width: 100%;
+        height: 300px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .testoRazzo3{
+        width: 100%;
+        height: 300px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 
+
+ 
+    @media screen and (max-width: 900px){
+
+        
+        .fontRazzo{
+    
+            font-size: 12px;
+     
+         }
+         .testoRazzo1{
+            width: 100%;
+            height: 270px;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .testoRazzo2{
+            width: 100%;
+            height: 270px;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .testoRazzo3{
+            width: 100%;
+            height: 270px;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        .razzo{
+            width: 100%;
+            height: 500px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;  
+        }
+    
+    
+    }
+    
+  
+   
+    @media screen and (max-width: 750px){
+    
+      
+        .fontRazzo{
+    
+           font-size: 10px;
+    
+        }
+        .testoRazzo1{
+            width: 100%;
+            height: 200px;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .testoRazzo2{
+            width: 100%;
+            height: 200px;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .testoRazzo3{
+            width: 100%;
+            height: 200px;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+    }
+   
+    @media screen and (max-width: 650px){
+    
+      
+        .fontRazzo{
+    
+           font-size: 8px;
+    
+        }
+        .testoRazzo1{
+            width: 100%;
+            height: 150px;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .testoRazzo2{
+            width: 100%;
+            height: 150px;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .testoRazzo3{
+            width: 100%;
+            height: 150px;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+    }
+
+    @media screen and (max-width: 550px){
+    
+      
+        .fontRazzo{
+    
+           font-size: 7px;
+    
+        }
+        .testoRazzo1{
+            width: 100%;
+            height: 120px;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .testoRazzo2{
+            width: 100%;
+            height: 120px;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .testoRazzo3{
+            width: 100%;
+            height: 120px;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+    }
+
+
+
+    @media screen and (max-width: 500px){
+
+        .razzo{
+            width: 100%;
+            height: 350px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;  
+        }
+    
+
+}
+
+    @media screen and (max-width: 450px){
+    
+      
+        .fontRazzo{
+    
+           font-size: 6px;
+    
+        }
+        .testoRazzo1{
+            width: 100%;
+            height: 100px;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .testoRazzo2{
+            width: 100%;
+            height: 100px;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .testoRazzo3{
+            width: 100%;
+            height: 100px;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+        }
+     
+        .razzo{
+            width: 100%;
+            height: 300px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;  
+        }
+    
+
+    }
+   
+    @media screen and (max-width: 410px){
+
+        .razzo{
+            width: 100%;
+            height: 300px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;  
+            padding-top: 40px;
+        }
+
+    }
+
+
+
+/* aggiunte */
+
+
+.imgMars{
+    width: 100%;
+    height: 400px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.61)),  url(./mars.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.modificheMarte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+
+
+
 /* card fine header */
+
 
 
 .card-text{
@@ -261,7 +684,7 @@ align-items: center;
 .top{
     width: 125px;
     height: 5px;     
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     position: absolute;
     margin-bottom: 47px;
    
@@ -300,12 +723,12 @@ align-items: center;
 
 }
 
-.space{
+/* .space{
 
     width: 100%;
     height: 200px;
 
-}
+} */
 
 
 
@@ -314,13 +737,20 @@ align-items: center;
 /* inizio footer */
 
 .imgEarth{
+    padding-top: 300px;
     width: 100%;
     height: 600px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.205),rgba(0, 0, 0, 0.534)),  url(./sunrise-1765027_1920.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.74)),  url(./sunrise-1765027_1920.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center
 
+}
+
+
+.testoIcons{
+
+    display: flex;
 }
 
 
@@ -339,4 +769,20 @@ justify-content: end;
    justify-content: space-evenly;
    align-items: center;
 
+}
+
+
+.boxLinea{
+ width: 100%;
+ height: 100px;
+ background-color: black;
+
+}
+
+
+.lineaFinale{
+
+width: 100%;
+height: 4px;
+background-image: linear-gradient(to right, #000000,#000000, #2b9df4, #2b9df4, #000000, #000000);
 }
